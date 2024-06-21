@@ -1,5 +1,13 @@
 ﻿//Screen Sound
-string mensagemDeBoasVindas =  @"
+string mensagemDeBoasVindas =  "Boas vindas ao Screen Sound";
+
+
+ExibirMensagemDeBoasVindas();
+
+void ExibirMensagemDeBoasVindas()
+{ 
+
+    Console.WriteLine(@"
 
 ░██████╗░█████╗░██████╗░███████╗███████╗███╗░░██╗  ░██████╗░█████╗░██╗░░░██╗███╗░░██╗██████╗░
 ██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝████╗░██║  ██╔════╝██╔══██╗██║░░░██║████╗░██║██╔══██╗
@@ -7,15 +15,7 @@ string mensagemDeBoasVindas =  @"
 ░╚═══██╗██║░░██╗██╔══██╗██╔══╝░░██╔══╝░░██║╚████║  ░╚═══██╗██║░░██║██║░░░██║██║╚████║██║░░██║
 ██████╔╝╚█████╔╝██║░░██║███████╗███████╗██║░╚███║  ██████╔╝╚█████╔╝╚██████╔╝██║░╚███║██████╔╝
 ╚═════╝░░╚════╝░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝░░╚══╝  ╚═════╝░░╚════╝░░╚═════╝░╚═╝░░╚══╝╚═════╝░
-
-";
-
-
-ExibirMensagemDeBoasVindas();
-
-void ExibirMensagemDeBoasVindas()
-{ 
-    Console.WriteLine("*****************************"); 
+");
     Console.WriteLine(mensagemDeBoasVindas);
-    Console.WriteLine("*****************************");
+
 }
